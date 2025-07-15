@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="date=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="format-detection" content="email=no">
+    <title>Become a Certified Data Scientist - IAT Technologies</title>
+    <!--[if mso]>
+    <noscript>
+        <xml>
+            <o:OfficeDocumentSettings>
+                <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+    </noscript>
+    <![endif]-->
+    <style>
+        /* Reset styles */
+        body, table, td, p, a, li, blockquote {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+        table, td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+        img {
+            -ms-interpolation-mode: bicubic;
+            border: 0;
+            outline: none;
+            text-decoration: none;
+        }
+
+        /* Base styles */
+        body {
+            margin: 0 !important;
+            padding: 0 !important;
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333333;
+        }
+
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+
+        /* Header styles */
+        .header {
+            background-color: #2E5F7F;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            color: #ffffff;
+            font-size: 28px;
+            font-weight: 700;
+            margin: 0;
+            line-height: 1.3;
+        }
+
+        /* Hero section */
+        .hero {
+            background: linear-gradient(135deg, #2E5F7F 0%, #4A7BA7 100%);
+            padding: 50px 30px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .hero-content {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            font-weight: 700;
+            margin: 0 0 20px 0;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin: 0 0 30px 0;
+            opacity: 0.95;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #FF6B35;
+            color: #ffffff !important;
+            text-decoration: none;
+            padding: 16px 40px;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: all 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #E55A2B;
+            transform: translateY(-2px);
+        }
+
+        /* Content section */
+        .content {
+            padding: 50px 30px;
+        }
+
+        .intro-text {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .intro-text p {
+            font-size: 16px;
+            color: #666666;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        /* Two column layout */
+        .two-columns {
+            display: table;
+            width: 100%;
+            margin-top: 40px;
+        }
+
+        .column {
+            display: table-cell;
+            width: 50%;
+            vertical-align: top;
+            padding: 0 15px;
+        }
+
+        .column-content {
+            background-color: #f8f9fa;
+            padding: 30px 25px;
+            border-radius: 12px;
+            height: 100%;
+            box-sizing: border-box;
+        }
+
+        .column h3 {
+            color: #2E5F7F;
+            font-size: 20px;
+            font-weight: 600;
+            margin: 0 0 20px 0;
+            text-align: center;
+        }
+
+        .column ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .column li {
+            padding: 8px 0;
+            border-bottom: 1px solid #e9ecef;
+            font-size: 14px;
+            color: #555555;
+        }
+
+        .column li:last-child {
+            border-bottom: none;
+        }
+
+        .column li::before {
+            content: "✓";
+            color: #2E5F7F;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        /* Features section */
+        .features {
+            background-color: #f8f9fa;
+            padding: 50px 30px;
+        }
+
+        .features-grid {
+            display: table;
+            width: 100%;
+        }
+
+        .feature {
+            display: table-cell;
+            width: 33.33%;
+            text-align: center;
+            padding: 0 15px;
+        }
+
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background-color: #2E5F7F;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .feature-icon::before {
+            content: "★";
+            color: #ffffff;
+            font-size: 24px;
+        }
+
+        .feature h4 {
+            color: #2E5F7F;
+            font-size: 16px;
+            font-weight: 600;
+            margin: 0 0 10px 0;
+        }
+
+        .feature p {
+            font-size: 14px;
+            color: #666666;
+            margin: 0;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #2E5F7F;
+            padding: 40px 30px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .footer p {
+            margin: 0 0 10px 0;
+            font-size: 14px;
+        }
+
+        .footer a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        /* Mobile responsive */
+        @media only screen and (max-width: 600px) {
+            .email-container {
+                width: 100% !important;
+            }
+
+            .header,
+            .hero,
+            .content,
+            .features,
+            .footer {
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
+
+            .hero h2 {
+                font-size: 28px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+            .two-columns,
+            .features-grid {
+                display: block !important;
+            }
+
+            .column,
+            .feature {
+                display: block !important;
+                width: 100% !important;
+                margin-bottom: 20px;
+            }
+
+            .column:last-child,
+            .feature:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        /* Outlook specific */
+        <!--[if mso]>
+        .two-columns,
+        .features-grid {
+            width: 100% !important;
+        }
+        <![endif]-->
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <!-- Header -->
+        <div class="header">
+            <h1>Become a Certified Data Scientist</h1>
+        </div>
+
+        <!-- Hero Section -->
+        <div class="hero">
+            <div class="hero-content">
+                <h2>Launch Your Data Science Career</h2>
+                <p>Join IAT Technologies' comprehensive Data Science course with guaranteed placement support and hands-on industry experience.</p>
+                <a href="https://iattechnologies.com/data-science-courses1/" class="cta-button">Enroll Now</a>
+            </div>
+        </div>
+
+        <!-- Content Section -->
+        <div class="content">
+            <div class="intro-text">
+                <p>Accelerate your data-driven career with our comprehensive program featuring engaging classroom sessions, real-world projects, and globally recognized certifications. Gain practical, job-ready skills in today's most in-demand technologies.</p>
+            </div>
+
+            <!-- Two Columns -->
+            <div class="two-columns">
+                <div class="column">
+                    <div class="column-content">
+                        <h3>Key Modules</h3>
+                        <ul>
+                            <li>Python Programming</li>
+                            <li>Machine Learning</li>
+                            <li>Deep Learning</li>
+                            <li>Natural Language Processing (NLP)</li>
+                            <li>Generative AI</li>
+                            <li>Hadoop & Spark</li>
+                            <li>Data Visualization</li>
+                            <li>Statistical Analysis</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-content">
+                        <h3>Course Highlights</h3>
+                        <ul>
+                            <li>Guaranteed Placement Support</li>
+                            <li>Real-world Project Experience</li>
+                            <li>Industry Internship Program</li>
+                            <li>Flexible Timing Options</li>
+                            <li>Expert Mentorship</li>
+                            <li>Global Certifications</li>
+                            <li>Hybrid Learning Model</li>
+                            <li>Career Guidance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <div class="features">
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon"></div>
+                    <h4>Hands-on Learning</h4>
+                    <p>Interactive workshops and practical sessions with real-world examples</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon"></div>
+                    <h4>Industry Ready</h4>
+                    <p>Gain expertise in industry-standard tools and technologies</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon"></div>
+                    <h4>100% Placement</h4>
+                    <p>Dedicated placement assistance with guaranteed job support</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p><strong>IAT Technologies</strong></p>
+            <p>Leading Software Training Institute in Chennai</p>
+            <p>Email: <a href="mailto:info@iattechnologies.com">info@iattechnologies.com</a></p>
+            <p>Ready to transform your career? <a href="https://iattechnologies.com/data-science-courses1/">Learn more about our Data Science course</a></p>
+        </div>
+    </div>
+</body>
+</html>
